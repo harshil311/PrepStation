@@ -1,0 +1,96 @@
+.column2{
+position: absolute;
+width: 925px;
+height: 932px;
+left: 626px;
+top: 92px;
+
+background: rgba(221, 217, 217, 0.5);
+}
+
+
+.Para
+{
+position: absolute;
+width: 452px;
+height: 56px;
+left: 250px;
+top: 298px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #615A5A;
+}
+
+.Continue
+{
+position: absolute;
+width: 98px;
+height: 37px;
+left: 146px;
+top: 834px;
+background-color: green;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 28px;
+
+color: white;
+}
+
+.Heading
+{
+position: absolute;
+width: 265px;
+height: 110px;
+left: 46px;
+top: 298px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 37px;
+line-height: 43px;
+
+color:black;
+
+}
+
+.h2heading{
+    position: absolute;
+width: 265px;
+height: 110px;
+left: 46px;
+top: 298px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 37px;
+line-height: 43px;
+
+
+}
+
+.TestDuration{
+    position: absolute;
+    width: 107px;
+    height: 65px;
+    left: 46px;
+    top: 1000px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #615A5A;
+    
+}

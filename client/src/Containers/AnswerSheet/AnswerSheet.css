@@ -1,0 +1,93 @@
+.AnswerIntro
+{
+ position: relative; 
+/* width: 357px; */
+ height: 982px; 
+/* top:200px; */
+/* left: 200px; */
+margin-top: 12%;
+margin-left: 0%;
+}
+.AnswerSheetComponant2
+{
+    position: absolute;
+    width: 955px;
+    height: 582px;
+    left: 236px;
+    top: 285px;
+    background-color: #C4C4C44D;
+}
+.buttonx
+{
+    position: absolute;
+    width: 190px;
+    height: 43px;
+    left: 1072px;
+    top: 900px;
+    
+    background: #7BE855;
+    ;
+}
+
+.leftside
+{
+position: absolute;
+width: 484px;
+height: 582px;
+
+background:#C4C4C4;
+}
+.Ques
+{
+position: absolute;
+width: 484px;
+height: 66px;
+left: 0px;
+top: 0px;
+
+background: #7BE855;
+}
+.SelAns
+{
+position: absolute;
+width: 470px;
+height: 66px;
+left: 484px;
+top: 0px;
+
+background: #7BE855;
+}
+#Questions
+{
+position: absolute;
+left: 40.94%;
+right: 40.18%;
+top: 20.32%;
+bottom: 92.72%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+}
+#SelectedAnswer
+{
+position: absolute;
+left: 33.66%;
+/* right: 13.61%;  */
+top: 20.32%;
+bottom: 92.72%;
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 27px;
+line-height: 32px;
+text-align: center;
+
+color: #000000;
+
+}

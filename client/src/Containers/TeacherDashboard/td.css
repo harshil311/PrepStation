@@ -1,0 +1,133 @@
+/* body {
+  margin: 0;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 30px auto;
+  background: #e5e5e5;
+} */
+
+.container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.column-1 {
+  flex-shrink: 0;
+  flex-basis: 70%; /* sets initial width to 70% */
+  /* width: 807px; */
+  height: 548px;
+  left: 79px;
+  margin-top: 230px;
+}
+.column-2 {
+  /* flex-shrink: 0; */
+  flex-basis: 70%; /* sets initial width to 70% */
+  height: 500px;
+  width: 490px;
+  height: 632px;
+  /* left: 973px; */
+  top: 208px;
+}
+
+.box {
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid rgb(116, 113, 113);
+  margin: 1rem;
+  box-shadow: 1px 1px 1px #000;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    /* it place the items in vertical direction */
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 0 0 1rem;
+  }
+}
+
+.innerbox {
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  border: 2px solid rgb(116, 113, 113);
+  margin: 1rem;
+  box-shadow: 1px 1px 1px #000;
+}
+
+/* .list {
+    position: inherit;
+    width: 221px;
+    height: 46px;
+    left: 1057px;
+    top: 344px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #000000;
+  } */
+.list {
+  display: inline;
+  text-align: left;
+
+  padding-left: 20px;
+}
+.day {
+  margin-top: 50px;
+  padding-left: 20px;
+}
+.time {
+  /* display: inline-flex; */
+  font-weight: bolder;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.dur {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.c1 {
+  /* display: inline-flex; */
+  font-weight: bolder;
+  padding-left: 20px;
+  /* margin-top: 10px; */
+}
+
+.level {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.c2 {
+  /* display: inline-flex; */
+  font-weight: bolder;
+  padding-left: 20px;
+  /* margin-top: px; */
+}
+.set {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.nam {
+  /* display: inline-flex; */
+  font-weight: bolder;
+  padding-left: 20px;
+  /* margin-top: px; */
+}
+.button2 {
+  margin-top: 30px;
+  width: 154px;
+  height: 56px;
+  left: 1071px;
+  top: 896px;
+
+  background: #48dd12c0;
+  border-radius: 5px;
+}

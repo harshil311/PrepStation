@@ -1,0 +1,29 @@
+{
+  "name": "prepstation",
+  "version": "1.0.0",
+  "description": "Mock Examination Platform",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saheelsapovadia/PrepStation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saheelsapovadia/PrepStation/issues"
+  },
+  "homepage": "https://github.com/saheelsapovadia/PrepStation#readme"
+}

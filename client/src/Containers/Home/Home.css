@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+.content{
+  margin-top: 5%;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  
+  float: left;
+  align-content: left;
+  width: 50%;
+  padding: 50px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  
+  content: "";
+  display: table;
+  clear: both;
+}
+.TestDuration{
+  position: absolute;
+  width: 107px;
+  height: 65px;
+  left: 46px;
+  top: 1000px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #615A5A;
+  
+}
